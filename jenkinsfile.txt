@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sshagent(['ubuntu']) {
                     sh '''
-                    ssh -o StrictHostKeyChecking=no ubuntu@54.87.82.48 <<EOF
+                    ssh -o StrictHostKeyChecking=no ubuntu@3.89.29.86 <<EOF
 if [ ! -d "repo" ]; then
     git clone https://github.com/karlancheta/IC9Repo.git repo
 else
