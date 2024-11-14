@@ -21,7 +21,7 @@ chocolates = [
     {
         "name": "White Chocolate",
         "image": "https://m.media-amazon.com/images/I/61-pg5u+9pL.jpg",
-        "price": 6.49
+        "price": 15.49
     }
 ]
 
